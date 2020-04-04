@@ -18,5 +18,5 @@ sudo chmod +x capturePhoto.sh
 
 ##### . Setting crontab:
 ```
-*/1 * * * * /home/pi/capturePhoto.sh  > /dev/null 2 > &1
+*/1 * * * * /home/pi/capturePhoto.sh >/dev/null 2>&1
 ```
