@@ -13,7 +13,7 @@ sudo chmod +x capturePhoto.sh
 ```
 ##### 3. Execute the script:
 ```
-sudo ./capturePhoto.sh
+./capturePhoto.sh
 ```
 
 ##### . Setting crontab:
