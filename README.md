@@ -20,3 +20,11 @@ sudo chmod +x capturePhoto.sh
 ```
 */1 * * * * /home/pi/capturePhoto.sh >/dev/null 2>&1
 ```
+
+
+
+##### . Setting crontab:
+```
+@ /home/pi/backup.sh >/dev/null 2>&1
+```
+
