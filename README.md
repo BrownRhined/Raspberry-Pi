@@ -1,10 +1,6 @@
 # Raspberry-Pi
 
 
-crontab -e
-
-*/1 * * * * /home/pi/capturePhoto.sh
-
 
 ##### 1. Download the script:
 ```
@@ -18,4 +14,9 @@ sudo chmod +x capturePhoto.sh
 ##### 3. Execute the script:
 ```
 sudo ./capturePhoto.sh
+```
+
+##### . Setting crontab:
+```
+*/1 * * * * /home/pi/capturePhoto.sh  > /dev/null 2 > &1
 ```
