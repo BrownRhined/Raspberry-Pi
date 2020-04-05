@@ -13,10 +13,18 @@ sudo chmod +x capturePhoto.sh
 ```
 ##### 3. Execute the script:
 ```
-sudo ./capturePhoto.sh
+./capturePhoto.sh
 ```
 
 ##### . Setting crontab:
 ```
-*/1 * * * * /home/pi/capturePhoto.sh  > /dev/null 2 > &1
+*/1 * * * * /home/pi/capturePhoto.sh >/dev/null 2>&1
 ```
+
+
+
+##### . Setting crontab:
+```
+@ /home/pi/backup.sh >/dev/null 2>&1
+```
+
